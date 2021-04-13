@@ -145,4 +145,8 @@ void setup() {
 
 void loop() {
   fsm.run_machine();
+  //digitalWrite(LED_BUILTIN, LOW);
+  //delay(3000);
+  //digitalWrite(LED_BUILTIN, HIGH);
+  //delay(3000);
 }
